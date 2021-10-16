@@ -1,6 +1,6 @@
 #slider {
     margin: 0 auto;
-    width: 60%;
+    width: 50em;
     max-width: 100%;
     text-align: center;
  }
@@ -23,11 +23,16 @@
  }
 
  .image{
+    width: 40rem;
     height: 40rem;
  }
 
 .text{
     text-align: left;
+}
+
+.bottom{
+    display: flex;
 }
 
  #overflow {
@@ -68,6 +73,7 @@
  }
 
  #bullets {
+     padding-right: 52px;
     text-align: right;
  }
 
